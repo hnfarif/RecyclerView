@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="400dp"
+                android:src="@drawable/aku"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:lineSpacingMultiplier="1"
+                android:text="@string/nama">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:lineSpacingMultiplier="1"
+                android:text="@string/email"
+                >
+
+
+            </TextView>
+        </FrameLayout>
+
+
+
+
+
+</LinearLayout>
